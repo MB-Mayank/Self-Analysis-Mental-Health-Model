@@ -54,3 +54,77 @@ A substantial amount of research work was undertaken, which included:
 
 ## Conclusion
 Developing a self-analysis mental health model required extensive preprocessing, feature engineering, and hyperparameter tuning. The dataset, despite its challenges, was highly relevant for the problem statement, ensuring meaningful insights in the medical domain. The large and high-quality nature of the dataset played a pivotal role in enhancing the model's effectiveness. Through rigorous research and experimentation, a robust pipeline was established, making the model capable of accurate and reliable self-analysis in mental health assessment.
+
+# Self-Analysis Mental Health Model - Project Documentation
+
+## Overview
+The **Self-Analysis Mental Health Model** is an AI-driven system designed to analyze mental health conditions based on user-provided symptoms. The model leverages machine learning techniques, extensive preprocessing pipelines, and hyperparameter tuning to ensure accurate and reliable results.
+
+## Features
+- **Automated Data Preprocessing**: Handles missing values, categorical encoding, feature scaling, and outlier removal.
+- **Multi-Model Training**: Utilizes various ML algorithms including Random Forest, XGBoost, and Logistic Regression.
+- **Hyperparameter Optimization**: Employs Optuna for fine-tuning models to achieve optimal performance.
+- **Explainability and Interpretability**: Uses SHAP values to understand feature importance.
+- **User-Friendly Interface**: CLI-based and API-ready for real-time analysis.
+
+## Dataset Information
+- **Source**: Collected from various mental health research datasets.
+- **Size**: Large-scale dataset enabling better generalization.
+- **Features**: Includes symptoms, demographic data, and medical history.
+- **Challenges**:
+  - High dimensionality requiring feature selection.
+  - Class imbalance addressed using resampling techniques.
+  - Missing values handled using imputation strategies.
+
+## Project Structure
+```
+self_analysis_project/
+│── data/                    # Raw and processed datasets
+│── notebooks/               # Jupyter Notebooks for experimentation
+│── src/                     # Source code for preprocessing and model training
+│   │── preprocessing.py     # Data cleaning and transformation
+│   │── model.py            # Model definition and training
+│   │── inference.py        # Model inference script
+│── scripts/                 # Shell scripts for automation
+│── results/                 # Model evaluation results
+│── requirements.txt         # Dependencies
+│── README.md                # Project documentation
+```
+
+## Installation
+```sh
+# Clone the repository
+git clone https://github.com/your-repo/self-analysis-mental-health.git
+cd self-analysis-mental-health
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## Usage
+### Training the Model
+```sh
+python src/model.py --train
+```
+### Running Inference
+```sh
+python src/inference.py --input "sample_input.json"
+```
+
+## Model Performance
+- **Accuracy**: 94% depending on the dataset split.
+- **Best Model**: XGBoost with hyperparameter tuning.
+- **Feature Importance**: Top influencing features include stress levels, sleep patterns, and past medical history.
+
+## Future Improvements
+- **Deep Learning Integration**: Experiment with Transformer-based models for better generalization.
+- **Real-time API**: Deploy as a FastAPI/Flask-based web service.
+- **Enhanced User Experience**: Develop a web or mobile interface for end users.
+
+## Contributors
+- **Mayank Bhushan** - AI/ML Engineer
+- **[Other Contributors]** - Collaborators and Research Partners
+
+## License
+This project is licensed under the MIT License.
+
