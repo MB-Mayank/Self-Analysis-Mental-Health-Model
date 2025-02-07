@@ -4,8 +4,8 @@
 The **Self-Analysis Mental Health Model** is an AI-powered system that predicts an individual's likelihood of experiencing depression based on demographic, academic/work, lifestyle, and mental health indicators. The system utilizes data preprocessing, feature engineering, machine learning classification, and a generative AI model for insights and suggestions.
 
 ## 🚀 Technologies Used
-- **Programming Language**: Python
-- **Machine Learning Libraries**: Scikit-learn, XGBoost, Pandas, NumPy
+- **Programming Language**
+- **Machine Learning Libraries**
 - **Model Deployment & UI**: Streamlit
 - **Data Processing & Feature Engineering**:
   - Label Encoding
