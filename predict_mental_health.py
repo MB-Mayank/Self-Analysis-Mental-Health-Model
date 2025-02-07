@@ -295,7 +295,7 @@ required_columns = [
 # Streamlit UI
 def main():
     st.title("Self-Analysis Mental Health Model")
-    
+    st.write("I have provided data to be input in model in user_input.csv . That data is unseen to model Actually u can also give similar data with different values but maintain that format and type")
     user_inputs = {}
     
     with st.form("user_form"):
