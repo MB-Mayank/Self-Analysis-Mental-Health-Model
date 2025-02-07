@@ -1,5 +1,7 @@
 # Self-Analysis Mental Health Model
 
+Video Link - https://drive.google.com/file/d/1aMvww1EPUkjYx4OMuTeZHwnDKKbP4zAX/view?usp=sharing
+Report link -https://drive.google.com/drive/folders/1-tnmrabxeKUNMAoc2UGfTGYgK0ZO8b2A?usp=sharing
 ## 📌 Project Overview
 The **Self-Analysis Mental Health Model** is an AI-powered system that predicts an individual's likelihood of experiencing depression based on demographic, academic/work, lifestyle, and mental health indicators. The system utilizes data preprocessing, feature engineering, machine learning classification, and a generative AI model for insights and suggestions.
 
