@@ -86,7 +86,7 @@ Update `predict_mental_health.py`:
 genai.configure(api_key="your_google_gemini_api_key")
 ```
 
-### 6️⃣ Run the Application
+### 6️⃣ Run the Application and give the imput based(means type ) on above tabe only for now
 ```bash
 streamlit run predict_mental_health.py
 ```
