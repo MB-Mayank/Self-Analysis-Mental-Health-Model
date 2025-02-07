@@ -58,8 +58,8 @@ The input dataset consists of user records with the following structure:
 ## 🛠️ Setup Instructions
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <repository_url>
-cd <repository_name>
+git clone <https://github.com/MB-Mayank/Self-Analysis-Mental-Health-Model.git>
+cd <Self-Analysis-Mental-Health-Model>
 ```
 
 ### 2️⃣ Set Up Virtual Environment (Optional but Recommended)
