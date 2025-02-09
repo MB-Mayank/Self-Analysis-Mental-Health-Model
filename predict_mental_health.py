@@ -280,7 +280,7 @@ with open("my_pipeline.pkl", "rb") as f:
     pipeline = pickle.load(f)
 
 loaded_model = joblib.load("best_xgb_model.pkl")
-genai.configure(api_key="AIzaSyDq5MG8mkJxVW2Dv1CCDjJzyqUzUb_UjJU")
+genai.configure(api_key="")
 
 gemini_model = genai.GenerativeModel("gemini-pro")
 # Define the input fields
